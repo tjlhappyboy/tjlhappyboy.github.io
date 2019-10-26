@@ -273,20 +273,20 @@
             <span class="post-date" title="2019-10-26 00:25:42">2019/10/26</span>
         </a>
         
-        <a  class=""
-           href="/2019/10/25/hello-world/"
-           data-tag=""
-           data-author="" >
-            <span class="post-title" title="Hello World">Hello World</span>
-            <span class="post-date" title="2019-10-25 21:55:23">2019/10/25</span>
-        </a>
-        
         <a  class="Python "
            href="/2019/10/26/Python%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0-%E7%AC%AC%E4%BA%8C%E5%A4%A9/"
            data-tag="Python 基础"
            data-author="" >
             <span class="post-title" title="Python基础 第二天">Python基础 第二天</span>
             <span class="post-date" title="2019-10-26 14:45:12">2019/10/26</span>
+        </a>
+        
+        <a  class=""
+           href="/2019/10/25/hello-world/"
+           data-tag=""
+           data-author="" >
+            <span class="post-title" title="Hello World">Hello World</span>
+            <span class="post-date" title="2019-10-25 21:55:23">2019/10/25</span>
         </a>
         
     </nav>
@@ -325,7 +325,7 @@
     </div>
     <div class="article-meta">
         
-        创建时间:<time class="date" title='更新时间: 2019-10-26 19:50:39'>2019-10-26 14:45</time>
+        创建时间:<time class="date" title='更新时间: 2019-10-26 22:10:58'>2019-10-26 14:45</time>
         
     </div>
     <div class="article-meta">
@@ -384,47 +384,47 @@
 <p>​        来人，上栗子！</p>
 <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">x = <span class="number">10</span></span><br><span class="line">y = x / <span class="number">3</span></span><br><span class="line">print( x )</span><br><span class="line">print( type( x ) )</span><br><span class="line">print( y )</span><br><span class="line">print( type( y ) )</span><br></pre></td></tr></table></figure>
 
-<p><img src="https://tva1.sinaimg.cn/large/006y8mN6ly1g8bmksunusj30r90a00tf.jpg" alt="image-20191026151733485"></p>
+<p><img src="https://tva1.sinaimg.cn/large/006y8mN6ly1g8bmksunusj30r90a00tf.jpg" alt="实例一 变量的类型"></p>
 <p>​       可能有的人会比较好奇，欸？为什么不同的变量类型却不一样？别急嘛，现在只是开胃小菜，精彩马上开始！</p>
 <h3 id="1-2-数值数据类型"><a href="#1-2-数值数据类型" class="headerlink" title="1.2  数值数据类型"></a>1.2  数值数据类型</h3><p>​        Python在定义变量的时候可以不用声明变量的数据类型，未来如果这个变量是整数，那么这个变量就会被定义成整型（int)，如果这个变量是浮点数（就好比我们所说的小数，当然，在计算机中，小数分为了很多种，晕……），那么这个变量就是浮点数类型（float）。整形与浮点数最大的区别是，整数不含小数点，而浮点数包含小数点。</p>
 <p>​        我们来一个栗子看下（栗子：我不要面子的啊！想举就举！ 我：没办法啊，谁让你这么被需要……）</p>
 <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">x = <span class="number">10.0</span></span><br><span class="line">print( x )</span><br><span class="line">print( type( x ) )</span><br></pre></td></tr></table></figure>
 
-<p><img src="https://tva1.sinaimg.cn/large/006y8mN6ly1g8bmthkk68j30rw071t98.jpg" alt="image-20191026152545195"></p>
+<p><img src="https://tva1.sinaimg.cn/large/006y8mN6ly1g8bmthkk68j30rw071t98.jpg" alt="实例二 变量的类型声明"></p>
 <p>​       想来你应该看到了，这里虽然x是10，但是因为是10.0，所以，x是浮点型。</p>
 <h4 id="1-2-1-整数与浮点数的运算"><a href="#1-2-1-整数与浮点数的运算" class="headerlink" title="1.2.1 整数与浮点数的运算"></a>1.2.1 整数与浮点数的运算</h4><p>​        Python在定义变量的时候可以不用声明这个变量的数据类型，程序设计时常常会发生整数与浮点数之间的数据运算，Python具有简单的自动转换能力，在计算时会将整数转换为浮点数在执行计算。</p>
 <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">x = <span class="number">10</span></span><br><span class="line">y = x + <span class="number">5.5</span></span><br><span class="line">print( x )</span><br><span class="line">print( type( x ) )</span><br><span class="line">print( y )</span><br><span class="line">print( type( y ) )</span><br></pre></td></tr></table></figure>
 
-<p><img src="https://tva1.sinaimg.cn/large/006y8mN6ly1g8bmzoi8boj30rx0b03z8.jpg" alt="image-20191026153151504"></p>
+<p><img src="https://tva1.sinaimg.cn/large/006y8mN6ly1g8bmzoi8boj30rx0b03z8.jpg" alt="实例三 整数与浮点数的运算"></p>
 <p>​        通过上面的栗子，我们知道了，由于是整数与浮点数的加法，所以计算结果是浮点数。此外，如果某一个变量是整数，但是最后所存储的数值是浮点数，Python也会将此变量转换成浮点数。</p>
 <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">x = <span class="number">10</span></span><br><span class="line">print( x )</span><br><span class="line">print( type( x ) )</span><br><span class="line">y = x + <span class="number">5.5</span></span><br><span class="line">print( x )</span><br><span class="line">print( type( x ) )</span><br></pre></td></tr></table></figure>
 
-<p><img src="https://tva1.sinaimg.cn/large/006y8mN6ly1g8bn38w5xaj30rl0ar756.jpg" alt="image-20191026153522328"></p>
+<p><img src="https://tva1.sinaimg.cn/large/006y8mN6ly1g8bn38w5xaj30rl0ar756.jpg" alt="实例四 整形与浮点型的运算 二"></p>
 <h4 id="1-2-2-二进制数与函数-bin"><a href="#1-2-2-二进制数与函数-bin" class="headerlink" title="1.2.2 二进制数与函数 bin( )"></a>1.2.2 二进制数与函数 bin( )</h4><p>​        我们可以使用二进制的形式来表示一个整数，Python中定义凡是0b开头的数字，代表这是二进制的整数。</p>
 <p>​        bin ( ) 函数可以将一般数字转换为二进制形式。</p>
 <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">x = <span class="number">0b1101</span></span><br><span class="line">print( x )</span><br><span class="line">y = <span class="number">13</span></span><br><span class="line"><span class="keyword">print</span> ( bin ( y ) )</span><br></pre></td></tr></table></figure>
 
-<p><img src="https://tva1.sinaimg.cn/large/006y8mN6ly1g8bn8h8lv1j30ul09dgmb.jpg" alt="image-20191026154024192"></p>
+<p><img src="https://tva1.sinaimg.cn/large/006y8mN6ly1g8bn8h8lv1j30ul09dgmb.jpg" alt="实例五 二进制数"></p>
 <h4 id="1-2-3-八进制数"><a href="#1-2-3-八进制数" class="headerlink" title="1.2.3 八进制数"></a>1.2.3 八进制数</h4><p>​        我们可以使用八进制的形式来表示一个整数，Python中定义凡是0o开头的数字，代表这是八进制的整数。</p>
 <p>​        oct ( ) 函数可以将一般数字转换为八进制形式。</p>
 <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">x = <span class="number">0o57</span></span><br><span class="line">print( x )</span><br><span class="line">y = <span class="number">13</span></span><br><span class="line"><span class="keyword">print</span> ( oct ( y ) )</span><br></pre></td></tr></table></figure>
 
-<p><img src="https://tva1.sinaimg.cn/large/006y8mN6ly1g8bpfga4vxj30sf0a6wf5.jpg" alt="image-20191026154228705"></p>
+<p><img src="https://tva1.sinaimg.cn/large/006y8mN6ly1g8bpfga4vxj30sf0a6wf5.jpg" alt="实例六 八进制数"></p>
 <h4 id="1-2-4-十六进制数"><a href="#1-2-4-十六进制数" class="headerlink" title="1.2.4 十六进制数"></a>1.2.4 十六进制数</h4><p>​        我们可以使用十六进制的形式来表示一个整数，Python中定义凡是0x开头的数字，代表这是十六进制的整数。</p>
 <p>​        hex ( ) 函数可以将一般数字转换为十六进制形式。</p>
 <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">x = <span class="number">0x57</span></span><br><span class="line">print( x )</span><br><span class="line">y = <span class="number">66</span></span><br><span class="line"><span class="keyword">print</span> ( hex ( y ) )</span><br></pre></td></tr></table></figure>
 
-<p><img src="https://tva1.sinaimg.cn/large/006y8mN6ly1g8bpfdwlvzj30s109zaas.jpg" alt="image-20191026154441816"></p>
+<p><img src="https://tva1.sinaimg.cn/large/006y8mN6ly1g8bpfdwlvzj30s109zaas.jpg" alt="实例七 十六进制数"></p>
 <h4 id="1-2-5-强制数据类型的转换"><a href="#1-2-5-强制数据类型的转换" class="headerlink" title="1.2.5 强制数据类型的转换"></a>1.2.5 强制数据类型的转换</h4><p>​        有时候我们在编写程序的时候是可以自行强制转换数据的类型的，通过使用以下函数来实现。</p>
 <p>​        int ( )：将数据类型强制转换为整数。</p>
 <p>​        float( )：将数据类型强制转换为浮点数。</p>
 <p>​        我：栗子来来来，让我举高高，嘻嘻……</p>
 <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">x = <span class="number">10.5</span></span><br><span class="line">print( x )</span><br><span class="line">print( type( x ) )</span><br><span class="line">y = int( x ) + <span class="number">5</span></span><br><span class="line">print( y )</span><br><span class="line">print( type( y ) )</span><br></pre></td></tr></table></figure>
 
-<p><img src="https://tva1.sinaimg.cn/large/006y8mN6ly1g8boh7glegj30qh0b9aay.jpg" alt="image-20191026162323425"></p>
+<p><img src="https://tva1.sinaimg.cn/large/006y8mN6ly1g8boh7glegj30qh0b9aay.jpg" alt="实例八 强制类型转换"></p>
 <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">x = <span class="number">10</span></span><br><span class="line">print( x )</span><br><span class="line">print( type( x ) )</span><br><span class="line">y = float( x ) + <span class="number">10</span></span><br><span class="line">print( y )</span><br><span class="line">print( type( y ) )</span><br></pre></td></tr></table></figure>
 
-<p><img src="https://tva1.sinaimg.cn/large/006y8mN6ly1g8bpf95wivj30qx0bfjs8.jpg" alt="image-20191026162523487"></p>
+<p><img src="https://tva1.sinaimg.cn/large/006y8mN6ly1g8bpf95wivj30qx0bfjs8.jpg" alt="实例九 强制类型转换 二"></p>
 <h4 id="1-2-6-数值运算常用函数"><a href="#1-2-6-数值运算常用函数" class="headerlink" title="1.2.6 数值运算常用函数"></a>1.2.6 数值运算常用函数</h4><p>​         说了这么多，接下来我们来聊聊数值运算是常用的函数。</p>
 <p>​         abs( )：计算绝对值</p>
 <p>​         pow( x , y )：返回x的y次方</p>
@@ -451,23 +451,23 @@
 <h3 id="1-3-布尔类型"><a href="#1-3-布尔类型" class="headerlink" title="1.3 布尔类型"></a>1.3 布尔类型</h3><p>​        Python的布尔值（Boolean）数据类型有两种， True（真）和  Flase（假）两种，它的数据类型为bool。这个布尔值一般是在程序流程判断的时候运用，特别是在条件表达式（后面会说到）中，程序可以很具这个布尔值来判断接下来的执行步骤。</p>
 <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">x = <span class="literal">True</span></span><br><span class="line">print( x )</span><br><span class="line">print( type( x ) )</span><br><span class="line">y = <span class="literal">False</span></span><br><span class="line">print( y )</span><br><span class="line">print( type( y ) )</span><br></pre></td></tr></table></figure>
 
-<p><img src="https://tva1.sinaimg.cn/large/006y8mN6ly1g8bpf6bv2cj30r40aojs6.jpg" alt="image-20191026164923892"></p>
+<p><img src="https://tva1.sinaimg.cn/large/006y8mN6ly1g8bpf6bv2cj30r40aojs6.jpg" alt="实例十 布尔类型"></p>
 <p>​        有的小伙伴可能就要问了，我可不可以将布尔类型转换为整数类型么？</p>
 <p>​        我：当然可以！</p>
-<p><img src="https://tva1.sinaimg.cn/large/006y8mN6ly1g8bpf3wjbtj30r70c9dgs.jpg" alt="image-20191026165548478"></p>
+<p><img src="https://tva1.sinaimg.cn/large/006y8mN6ly1g8bpf3wjbtj30r70c9dgs.jpg" alt="实例十一 布尔类型的强制转换"></p>
 <h3 id="1-4-字符串类型"><a href="#1-4-字符串类型" class="headerlink" title="1.4 字符串类型"></a>1.4 字符串类型</h3><p>​        所谓的字符串（string）数据是指两个单引号（’’）之间或者两个双引号（””）之间的任意内容，它的数据类型是str，在英文字符串的使用中常常会发生某字中间有单引号，但是它也是字符串的一部分，比如说：</p>
 <p>​        Hello everyone，I’m Tom.</p>
 <p>​        如果我们用单引号去处理上述字符会报错，不信？你看：</p>
-<p><img src="https://tva1.sinaimg.cn/large/006y8mN6ly1g8bpmm2tx6j30s208mdgt.jpg" alt="image-20191026170306911"></p>
+<p><img src="https://tva1.sinaimg.cn/large/006y8mN6ly1g8bpmm2tx6j30s208mdgt.jpg" alt="实例十二 字符串类型"></p>
 <p>​        你也可以试试啊？</p>
 <p>​        你可能会问了，我该肿么破？别担心，你可以用双引号嘛。</p>
 <p>​        如果你要处理的字符串包括双引号，那你就用单引号处理不就好了！</p>
-<p><img src="https://tva1.sinaimg.cn/large/006y8mN6ly1g8bpoepoh0j30rr08h3z6.jpg" alt="image-20191026170452052"></p>
+<p><img src="https://tva1.sinaimg.cn/large/006y8mN6ly1g8bpoepoh0j30rr08h3z6.jpg" alt="实例十三 字符串处理"></p>
 <p>​        这下没问题了吧？</p>
 <h4 id="1-4-1-字符串的拼接"><a href="#1-4-1-字符串的拼接" class="headerlink" title="1.4.1 字符串的拼接"></a>1.4.1 字符串的拼接</h4><p>​        很简单，使用 “ + ” 就能搞定！</p>
 <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">a = <span class="string">"I "</span></span><br><span class="line">b = <span class="string">"love "</span></span><br><span class="line">c = <span class="string">"you!"</span></span><br><span class="line">d = a + b + c</span><br><span class="line">print( d )</span><br></pre></td></tr></table></figure>
 
-<p><img src="https://tva1.sinaimg.cn/large/006y8mN6ly1g8bpr4jltcj30rh09ot9f.jpg" alt="image-20191026170727940"></p>
+<p><img src="https://tva1.sinaimg.cn/large/006y8mN6ly1g8bpr4jltcj30rh09ot9f.jpg" alt="实例十四 字符串拼接"></p>
 <p>​        观众：欸欸欸，泥垢了，太肉麻了……</p>
 <p>​        我：拜托，这才哪到哪……</p>
 <h4 id="1-4-2-处理多于一行的字符串"><a href="#1-4-2-处理多于一行的字符串" class="headerlink" title="1.4.2 处理多于一行的字符串"></a>1.4.2 处理多于一行的字符串</h4><p>​        有时候在编写程序的时候，字符串的长度会多于一行，那么这个时候，你会怎么办？</p>
@@ -475,7 +475,7 @@
 <p>​        还记得我们之前聊过注释这个问题吧？bingo！这里我们可以使用多行注释的形式解决哦！</p>
 <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">a = <span class="string">"""</span></span><br><span class="line"><span class="string">所谓的字符串（string）数据是指两个单引号（''）之间或者两个双引号（""）之间的任意内容，它的数据类型是str，在英文字符串的使用中常常会发生某字中间有单引号，但是它也是字符串的一部分。</span></span><br><span class="line"><span class="string">"""</span></span><br><span class="line">print( a )</span><br></pre></td></tr></table></figure>
 
-<p><img src="https://tva1.sinaimg.cn/large/006y8mN6ly1g8bpwghqeej30su0asmyg.jpg" alt="image-20191026171235215"></p>
+<p><img src="https://tva1.sinaimg.cn/large/006y8mN6ly1g8bpwghqeej30su0asmyg.jpg" alt="实例十五 多行字符串处理"></p>
 <h4 id="1-4-3-转义字符"><a href="#1-4-3-转义字符" class="headerlink" title="1.4.3 转义字符"></a>1.4.3 转义字符</h4><p>​        在字符串使用中，如果有字符串中含有特殊字符时，比如说单引号，双引号，必须在此字符前添加 “\”（反斜杠），才可正常使用，这种含有 “\” 符号的字体称作转义字符。</p>
 <p>​        以下是一些常见的转义字符。</p>
 <table>
@@ -552,14 +552,14 @@
 </tbody></table>
 <p>​        字符串使用中特别是碰到字符串中含有单引号时，如果是使用单引号定义这个字符串时，必须使用此转义字符，才可顺利显示。</p>
 <p>​        自己动手试试吧！</p>
-<p>​        当然，如果不想自己的相关字符被转义的话，可以使用 “r” 这个小玩意，它就相当于原样输出，是其中的转义字符不起作用。</p>
+<p>​        当然，如果不想自己的相关字符被转义的话，可以使用 “r” 这个小玩意，它就相当于原样输出，使其中的转义字符不起作用。</p>
 <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">a = <span class="string">"女神！ \n我喜欢你！"</span></span><br><span class="line">print( a )</span><br><span class="line">b = <span class="string">r"女神！ \n我喜欢你！"</span></span><br><span class="line">print( b )</span><br></pre></td></tr></table></figure>
 
-<p><img src="https://tva1.sinaimg.cn/large/006y8mN6ly1g8bqldi76zj30rs0aajsc.jpg" alt="image-20191026173634920"></p>
+<p><img src="https://tva1.sinaimg.cn/large/006y8mN6ly1g8bqldi76zj30rs0aajsc.jpg" alt="实例十六 转义字符"></p>
 <h4 id="1-4-4-强制转换为字符串"><a href="#1-4-4-强制转换为字符串" class="headerlink" title="1.4.4 强制转换为字符串"></a>1.4.4 强制转换为字符串</h4><p>​        str( )函数可以将数值类型转化为字符串类型。</p>
 <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">a = <span class="number">333</span></span><br><span class="line">b = <span class="number">222</span></span><br><span class="line">print( a + b )</span><br><span class="line">print( str( a ) + str( b ) )</span><br></pre></td></tr></table></figure>
 
-<p><img src="https://tva1.sinaimg.cn/large/006y8mN6ly1g8bq84546uj30so096wf7.jpg" alt="image-20191026172347396">        </p>
+<p><img src="https://tva1.sinaimg.cn/large/006y8mN6ly1g8bq84546uj30so096wf7.jpg" alt="实例十七 强制转换字符串">        </p>
 <p>​    当然，如果字符串的内容为纯数字，也可以转化为数值类型进行相关处理，在此不再赘述。</p>
 <h4 id="1-4-5-字符串数据的转换"><a href="#1-4-5-字符串数据的转换" class="headerlink" title="1.4.5 字符串数据的转换"></a>1.4.5 字符串数据的转换</h4><p>​        如果字符串含有一个字符或者一个文字时，可以使用下面的函数进行转换。</p>
 <p>​        chr( x )：可以返回 x 的数值，这个数值一般是说的是对应的ASCII码值。</p>
@@ -567,17 +567,17 @@
 <h4 id="1-4-6-字符串的复制效果"><a href="#1-4-6-字符串的复制效果" class="headerlink" title="1.4.6 字符串的复制效果"></a>1.4.6 字符串的复制效果</h4><p>​        Python允许使用乘法符号对字符串进行复制操作。</p>
 <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">a = <span class="string">"老子很帅！ "</span></span><br><span class="line">print( a * <span class="number">8</span> )</span><br></pre></td></tr></table></figure>
 
-<p><img src="https://tva1.sinaimg.cn/large/006y8mN6ly1g8bqeup6vzj30sh0apmxy.jpg" alt="image-20191026173015923"></p>
-<h4 id="1-4-7-合理使用字符串加法和换行字符"><a href="#1-4-7-合理使用字符串加法和换行字符" class="headerlink" title="1.4.7 合理使用字符串加法和换行字符"></a>1.4.7 合理使用字符串加法和换行字符</h4><p>​        有时候在我们编写代码的时候，想要把字符串分行输出，是可以使用字符串的加法功能的，在家发过程中加上换行字符 “\n” 即可产生字符串分行输出的效果。</p>
+<p><img src="https://tva1.sinaimg.cn/large/006y8mN6ly1g8bqeup6vzj30sh0apmxy.jpg" alt="实例十八 换行字符"></p>
+<h4 id="1-4-7-合理使用字符串加法和换行字符"><a href="#1-4-7-合理使用字符串加法和换行字符" class="headerlink" title="1.4.7 合理使用字符串加法和换行字符"></a>1.4.7 合理使用字符串加法和换行字符</h4><p>​        有时候在我们编写代码的时候，想要把字符串分行输出，是可以使用字符串的加法功能的，在加法过程中加上换行字符 “\n” 即可产生字符串分行输出的效果。</p>
 <p>​        自己动手试试吧！</p>
 <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">a = <span class="string">"老子很帅！ "</span></span><br><span class="line">b = <span class="string">"就问你这句话对不对！ "</span></span><br><span class="line">c = <span class="string">"未央，你帅呆了！帅炸了！ "</span></span><br><span class="line">d = a + <span class="string">"\n"</span> + b + <span class="string">"\n"</span> + c + <span class="string">"\n"</span> + b</span><br><span class="line">print( d )</span><br></pre></td></tr></table></figure>
 
-<p><img src="https://tva1.sinaimg.cn/large/006y8mN6ly1g8bqiutxngj30sz0a7q3w.jpg" alt="image-20191026173406740"></p>
+<p><img src="https://tva1.sinaimg.cn/large/006y8mN6ly1g8bqiutxngj30sz0a7q3w.jpg" alt="实例十九 合理使用"></p>
 <h2 id="二、基本输入与输出"><a href="#二、基本输入与输出" class="headerlink" title="二、基本输入与输出"></a>二、基本输入与输出</h2><h3 id="2-1-Python的辅助说明-help"><a href="#2-1-Python的辅助说明-help" class="headerlink" title="2.1 Python的辅助说明 help( )"></a>2.1 Python的辅助说明 help( )</h3><p>​        help( )函数可以列出某一个Python的指令或函数的使用说明。</p>
 <p>​        这里有一个很重要的前提：你的英语要好！！！！！！</p>
 <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">help(<span class="keyword">print</span>)</span><br></pre></td></tr></table></figure>
 
-<p><img src="https://tva1.sinaimg.cn/large/006y8mN6ly1g8bqodbuaqj30rd0cdabd.jpg" alt="image-20191026173924718"></p>
+<p><img src="https://tva1.sinaimg.cn/large/006y8mN6ly1g8bqodbuaqj30rd0cdabd.jpg" alt="实例二十 print的基本信息"></p>
 <h3 id="2-2-格式化输出函数——print"><a href="#2-2-格式化输出函数——print" class="headerlink" title="2.2 格式化输出函数——print( )"></a>2.2 格式化输出函数——print( )</h3><p>​        观众：你怎么才将这个？都用了多久了！</p>
 <p>​        我：好吧，我的锅我的锅。（小声BB：这还不是为了你们好，我顺便还能省点事，毕竟大家都已经脸熟了）</p>
 <p>​        好了，现在开始了解 print()</p>
@@ -597,7 +597,7 @@
 <p>​        我：算了，还是举吧。</p>
 <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">a = <span class="string">"老子很帅！ "</span></span><br><span class="line">b = <span class="string">"就问你这句话对不对！ "</span></span><br><span class="line">c = <span class="string">"未央，你帅呆了！帅炸了！ "</span></span><br><span class="line">d = a + <span class="string">"\n"</span> + b + <span class="string">"\n"</span> + c + <span class="string">"\n"</span> + b</span><br><span class="line">print(<span class="string">"帅哥看这里！"</span>, d ,sep = <span class="string">"$$$"</span>)</span><br></pre></td></tr></table></figure>
 
-<p><img src="https://tva1.sinaimg.cn/large/006y8mN6ly1g8breg4muij30tg09yab3.jpg" alt="image-20191026180429085"></p>
+<p><img src="https://tva1.sinaimg.cn/large/006y8mN6ly1g8breg4muij30tg09yab3.jpg" alt="实例二十一 print语法"></p>
 <h4 id="2-2-2-格式化print-输出"><a href="#2-2-2-格式化print-输出" class="headerlink" title="2.2.2 格式化print( )输出"></a>2.2.2 格式化print( )输出</h4><p>​        在使用格式化输出时，基本的使用格式如下：</p>
 <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">print(<span class="string">" ...格式输出区... "</span> % ( 变量系列区， ... ) )</span><br></pre></td></tr></table></figure>
 
@@ -646,7 +646,7 @@
 <p>​            我：自己动手！！！</p>
 <p>​            需要注意的是：浮点数以整数 %d 格式化后，小数部分将会被舍去。</p>
 <p>​            还有，如果写成了类似 %(+|-)nX 的类型，表示是左移或者右移几个空格，左加右减</p>
-<h4 id="2-2-3-format（-）函数"><a href="#2-2-3-format（-）函数" class="headerlink" title="2.2.3 format（ ）函数"></a>2.2.3 format（ ）函数</h4><p>​        这是Python的增强版的格式化输出功能，字符串使用format的防滑做格式化的动作，它的基本使用格式如下：</p>
+<h4 id="2-2-3-format（-）函数"><a href="#2-2-3-format（-）函数" class="headerlink" title="2.2.3 format（ ）函数"></a>2.2.3 format（ ）函数</h4><p>​        这是Python的增强版的格式化输出功能，字符串使用format的方法做格式化的动作，它的基本使用格式如下：</p>
 <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">print(<span class="string">" ...格式输出区... "</span> .format( 变量系列区， ... ) )</span><br></pre></td></tr></table></figure>
 
 <p>​        如果是在格式输出区的字符串变量要使用 “{}” 表示。</p>
@@ -722,7 +722,7 @@
 <p>​        value是变量，所输入的数据会保存在此变量内，需要特别注意的是所输入的数据不管是什么数据类型，返回到value的时候，全部转换为str类型。所以，如果你执意要用此变量进行数学运算的话，记得进行强制类型转换哦！</p>
 <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">a = input(<span class="string">"请输入："</span>)</span><br><span class="line">print(<span class="string">"你输入的是："</span>,a)</span><br><span class="line">print(<span class="string">"类型是："</span>,type(a))</span><br></pre></td></tr></table></figure>
 
-<p><img src="https://tva1.sinaimg.cn/large/006y8mN6ly1g8buaho7w7j30sk0a3dgr.jpg" alt="image-20191026194429274"></p>
+<p><img src="https://tva1.sinaimg.cn/large/006y8mN6ly1g8buaho7w7j30sk0a3dgr.jpg" alt="实例二十二 input语法"></p>
 <h3 id="2-5-列出所有的内置函数-dir"><a href="#2-5-列出所有的内置函数-dir" class="headerlink" title="2.5 列出所有的内置函数 dir( )"></a>2.5 列出所有的内置函数 dir( )</h3><p>​        相信看到这里的小伙伴已经了解或者使用了很多Python内置的函数了吧，比如说help( )、print( )、input( )等等等等，有好事的人就该问了，这Python到底内置了多少函数啊，有没有什么方法能够列举出来啊？</p>
 <p>​        当然有！就是dir( )！</p>
 <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">dir(__builtins__)</span><br></pre></td></tr></table></figure>
@@ -745,7 +745,7 @@
     <p><span class="copy-title">文章字数:</span><span class="post-count">4.3k</span></p>
     <p><span class="copy-title">本文作者:</span><a href="javascript:void(0)" title="离影 夜未央">离影 夜未央</a></p>
     <p><span class="copy-title">发布时间:</span>2019-10-26, 14:45:12</p>
-    <p><span class="copy-title">最后更新:</span>2019-10-26, 19:50:39</p>
+    <p><span class="copy-title">最后更新:</span>2019-10-26, 22:10:58</p>
     <span class="copy-title">原始链接:</span><a class="post-url" href="/2019/10/26/Python%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0-%E7%AC%AC%E4%BA%8C%E5%A4%A9/" title="Python基础 第二天">http://yoursite.com/2019/10/26/Python%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0-%E7%AC%AC%E4%BA%8C%E5%A4%A9/</a>
     <p>
         <span class="copy-title">版权声明:</span><i class="fa fa-creative-commons"></i> <a rel="license noopener" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" title="CC BY-NC-SA 4.0 International" target = "_blank">"署名-非商用-相同方式共享 4.0"</a> 转载请保留原文链接及作者。
